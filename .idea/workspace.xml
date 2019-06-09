@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a50dfc4-08f4-48d8-a015-bbd4b50fd67f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CSV操作/ope_csv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Person相关分析/ope_person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dat操作/ope_dat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dict操作/ope_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/卡方检验/chi_square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图表/热力密度图/hot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/最小二乘法/least_square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/标准化/standard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图片拼接/pics.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,37 +14,37 @@
     <session id="1199103360">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="10" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
           <entry key="png" value="5" />
-          <entry key="py" value="22" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="5" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4774" />
+          <entry key="py" value="4800" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4774" />
+          <entry key="Python" value="4800" />
         </counts>
       </usages-collector>
     </session>
@@ -60,10 +52,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/最小二乘法/least_square.py">
+        <entry file="file://$PROJECT_DIR$/图片拼接/pics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="75">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#103#128#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +93,7 @@
         <option value="$PROJECT_DIR$/标准化/standard.py" />
         <option value="$PROJECT_DIR$/图表/热力密度图/hot.py" />
         <option value="$PROJECT_DIR$/最小二乘法/least_square.py" />
+        <option value="$PROJECT_DIR$/图片拼接/pics.py" />
       </list>
     </option>
   </component>
@@ -124,7 +120,7 @@
             <path>
               <item name="little_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="little_project" type="462c0819:PsiDirectoryNode" />
-              <item name="最小二乘法" type="462c0819:PsiDirectoryNode" />
+              <item name="图片拼接" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="little_project" type="b2602c69:ProjectViewProjectNode" />
@@ -153,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.least_square">
+  <component name="RunManager" selected="Python.pics">
     <configuration name="hot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="little_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,27 +192,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ope_dat" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="little_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dat操作" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dat操作/ope_dat.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ope_person" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="little_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +205,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Person相关分析/ope_person.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="little_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/图片拼接" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/图片拼接/pics.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,19 +256,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.ope_dat" />
       <item itemvalue="Python.ope_person" />
       <item itemvalue="Python.standard" />
       <item itemvalue="Python.hot" />
       <item itemvalue="Python.least_square" />
+      <item itemvalue="Python.pics" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pics" />
         <item itemvalue="Python.least_square" />
         <item itemvalue="Python.hot" />
         <item itemvalue="Python.standard" />
         <item itemvalue="Python.ope_person" />
-        <item itemvalue="Python.ope_dat" />
       </list>
     </recent_temporary>
   </component>
@@ -291,14 +287,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14200793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22654155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17292225" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -437,16 +432,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding>
-            <element signature="e#97#110#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/最小二乘法/least_square.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        <state relative-caret-position="319">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图片拼接/pics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#103#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
