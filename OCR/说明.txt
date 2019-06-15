@@ -1,0 +1,20 @@
+tesseract-ocr下载：
+http://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-4.00.00dev.exe
+
+简体中文识别包下载：
+https://raw.githubusercontent.com/tesseract-ocr/tessdata/4.00/chi_sim.traineddata
+下载好之后放到安装目录的Tesseract-OCRtessdata目录下
+
+
+检测是否安装
+tesseract -v
+检测安装的语言包
+tesseract --list-langs
+指定输入输出文件和语言包（默认英文）
+tesseract c:\test.jpg c:\test -l chi_sim
+
+python调用tesseract
+pip install pytesseract
+pip install Pillow
+
+环境变量问题：https://www.jianshu.com/p/f3b054dbf798
