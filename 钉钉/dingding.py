@@ -30,7 +30,7 @@ def get_Copywriting():
     files = os.listdir(pic_path)
     files.sort(key=lambda x: int(x[:-4]))
     file = files[word_pic_id]
-    love_image_file = 'https://raw.githubusercontent.com/guangmujun/Images/master/' + file
+    love_image_file = 'https://raw.githubusercontent.com/guangmujun/little_project/master/%E9%92%89%E9%92%89/imgs/' + file
 
     Copywriting = "你好哇，紫琪！\n\n\n我们在一起的 %s 天\n\n今天老王想对你说：\n\n\" %s \"\n\n最后也是最重要的！\n ![screenshot](%s)"
     Copywriting = Copywriting % (inLoveDays, love_word, love_image_file)
