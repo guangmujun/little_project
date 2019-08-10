@@ -17,7 +17,7 @@ def get_Copywriting():
     inLoveDate = datetime.datetime(2018, 12, 31)
     todayDate = datetime.datetime.today()
     inLoveDays = (todayDate - inLoveDate).days  # 在一起的天数
-    word_pic_id = inLoveDays - 219
+    word_pic_id = inLoveDays - 222
     print('索引:%s' % word_pic_id)
 
     # 情话内容
@@ -30,7 +30,8 @@ def get_Copywriting():
     files = os.listdir(pic_path)
     files.sort(key=lambda x: int(x[:-4]))
     file = files[word_pic_id]
-    love_image_file = 'https://raw.githubusercontent.com/guangmujun/little_project/master/%E9%92%89%E9%92%89/imgs/' + file
+    little_image = 'https://raw.githubusercontent.com/guangmujun/little_project/master/%E9%92%89%E9%92%89/imgs/' + file
+    love_image_file = 'https://raw.githubusercontent.com/guangmujun/little_project/master/%E9%92%89%E9%92%89/pics_add/' + file
 
     Copywriting = "你好哇，紫琪！\n\n\n我们在一起的 %s 天\n\n今天老王想对你说：\n\n\" %s \"\n\n最后也是最重要的！\n ![screenshot](%s)"
     Copywriting = Copywriting % (inLoveDays, love_word, love_image_file)
