@@ -15,6 +15,8 @@ import datetime
 def MonitorSystem(logfile = None):
     # 获取当前时间
     now = datetime.datetime.now()
+    ts2 = now.strftime('%H:%M:%S')
+    print(ts2)
     ts = now.strftime('%Y-%m-%d %H:%M:%S')
     line = f'{ts} '
     print(line)
@@ -25,7 +27,6 @@ def MonitorSystem(logfile = None):
 def loopMonitor():
     while True:
         MonitorSystem()
-        # 2s检查一次
-        time.sleep(3)
+        time.sleep(3600)
 
 loopMonitor()
