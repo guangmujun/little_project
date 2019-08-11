@@ -96,10 +96,10 @@ def loopMonitor():
             in_text = '每天多爱你一点\n用心、关心'
             send_news(in_title, in_text)
         elif ts == '08:55:00':
-         	print('程序测试成功')
-         	in_title = "测试"
-            in_text = '测试成功，哈哈哈哈'
-            send_news(in_title, in_text)
+        	print('程序测试成功')
+        	in_title = "测试"
+        	in_text = '测试成功，哈哈哈哈'
+        	send_news(in_title, in_text)
         time.sleep(1)
 
 
