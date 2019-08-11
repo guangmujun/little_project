@@ -84,7 +84,7 @@ def MonitorSystem(logfile = None):
 def loopMonitor():
     while True:
         ts = MonitorSystem()
-        print(ts)
+        # print(ts)
         if ts == '09:00:00':
             print('发送每日情话')
             in_title = "每日情话"
@@ -95,7 +95,12 @@ def loopMonitor():
             in_title = "每日问候"
             in_text = '每天多爱你一点\n用心、关心'
             send_news(in_title, in_text)
-        time.sleep(3600)
+        elif ts == '08:55:00':
+         	print('程序测试成功')
+         	in_title = "测试"
+            in_text = '测试成功，哈哈哈哈'
+            send_news(in_title, in_text)
+        time.sleep(1)
 
 
 def main():
