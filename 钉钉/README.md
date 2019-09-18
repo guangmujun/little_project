@@ -8,3 +8,14 @@
 
 开发文档：https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq
 
+
+
+说明：
+
+1. 进入到项目文件目录 /home/pyproj/dingding
+2. 后台运行程序``nohup python3 dingding.py &``
+
+补充：
+
+1. 查看后台进程``ps -A``
+2. 结束进程``keill PID``(PID指进程号)
